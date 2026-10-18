@@ -367,7 +367,6 @@ input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px
 .footer-links { display: flex; flex-direction: column; align-items: center; gap: 2px; }
 .footer-link { color: var(--pizarra); font-size: 0.9rem; text-decoration: none; line-height: 28px; }
 .footer-link:hover, .footer-link[aria-current="page"] { color: var(--tinta); }
-.footer-link-empresas { color: var(--azul); font-weight: 500; }
 .footer-contact { justify-self: end; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 .footer-inner .small { font-size: 0.9rem; }
 .footer-social { display: flex; align-items: center; gap: 14px; height: 30px; }
