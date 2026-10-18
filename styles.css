@@ -444,3 +444,11 @@ input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px
   .header-inner .btn-small { padding: 10px 14px; font-size: 0.9rem; }
   .logo-word { font-size: 1.4rem; }
 }
+
+/* Sello de entidad organizadora de FUNDAE en el pie */
+.footer-fundae { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin-top: 14px; }
+.footer-fundae img { display: block; width: 110px; height: auto; }
+.footer-inner .footer-fundae p { font-size: 0.78rem; line-height: 1.35; color: var(--pizarra); max-width: 17em; }
+@media (max-width: 680px) {
+  .footer-fundae { align-items: center; }
+}
