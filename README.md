@@ -30,7 +30,7 @@ Logo: el símbolo de Kalokai (arco en tinta y círculo en azul) junto a «kaloka
 
 ## Contacto
 
-El formulario prepara un correo a `hola@kalokai.es` (en `script.js`). WhatsApp: 653 803 390.
+El formulario prepara un correo a `hola@kalokai.es` (en `script.js`). WhatsApp: 711 229 286.
 
 ## Publicación
 
