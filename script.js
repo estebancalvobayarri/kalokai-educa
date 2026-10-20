@@ -239,6 +239,7 @@
 
 // --------------------------------------------------------------------
 // Página de formaciones: filtro por público (profesorado, alumnado, familias)
+// y por formaciones bonificables por FUNDAE (las del profesorado y el personal)
 // Cada ficha lleva data-publico con uno o varios valores separados por espacios.
 // --------------------------------------------------------------------
 (function () {
@@ -261,6 +262,8 @@
       l.hidden = !l.querySelector('.catalogo-area:not([hidden])');
     });
     if (vacio) vacio.hidden = !!document.querySelector('.ficha:not([hidden])');
+    var nota = document.querySelector('.filtro-nota');
+    if (nota) nota.hidden = valor !== 'bonificable';
   }
   botones.forEach(function (b) {
     b.addEventListener('click', function () { filtrar(b.dataset.filtro); });

@@ -472,3 +472,12 @@ input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px
   .footer-family { order: 2; margin-top: 28px; }
   .footer-inner .small { order: 6; margin-top: 14px; }
 }
+
+/* Formaciones: filtro «Bonificables», separado de los filtros por público */
+.filtro-fundae { margin-left: 12px; position: relative; }
+.filtro-fundae::before { content: ""; position: absolute; left: -11px; top: 8px; bottom: 8px; width: 1px; background: var(--linea); }
+.filtro-nota { max-width: 36em; margin: 18px auto 0; font-size: 0.95rem; color: var(--pizarra); text-wrap: balance; }
+@media (max-width: 480px) {
+  .filtro-fundae { margin-left: 0; }
+  .filtro-fundae::before { display: none; }
+}
