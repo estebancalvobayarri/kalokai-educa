@@ -481,3 +481,20 @@ input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px
   .filtro-fundae { margin-left: 0; }
   .filtro-fundae::before { display: none; }
 }
+
+/* Formaciones: sello «Bonificable» en las fichas que pueden bonificarse por FUNDAE.
+   Ámbar de Kalokai, el color de la formación bonificada en la marca madre. */
+.ficha.es-bonificable { position: relative; }
+.ficha.es-bonificable h4 { padding-right: 132px; }
+.sello-fundae {
+  position: absolute; top: 20px; right: 20px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px 5px 9px; border-radius: 999px;
+  background: #FFB224; color: var(--tinta);
+  font-size: 0.8rem; font-weight: 600; line-height: 1.2;
+}
+.sello-fundae svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 480px) {
+  .ficha.es-bonificable h4 { padding-right: 0; }
+  .sello-fundae { position: static; align-self: flex-start; order: -1; }
+}
