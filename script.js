@@ -112,7 +112,7 @@
     '        <option>Aún no lo tengo claro</option>' +
     '        <option>Salud física</option><option>Salud mental</option>' +
     '        <option>Convivencia y clima</option><option>Protección y seguridad</option>' +
-    '        <option>Aula y aprendizaje</option><option>Digital</option><option>Liderazgo y organización</option>' +
+    '        <option>Aula y aprendizaje</option><option>Digital</option>' +
     '      </select>' +
     '    </div>' +
     '    <fieldset class="field field-wide">' +

@@ -5,7 +5,7 @@ Web de Kalokai Educa, la línea de Kalokai para centros educativos: formación p
 ## Estructura
 
 - `index.html`: inicio, con los tres públicos, las dos líneas de formación, los programas y cómo trabajamos.
-- `formaciones.html`: catálogo de las 28 formaciones, con filtro por público.
+- `formaciones.html`: catálogo de las 24 formaciones, con filtro por público.
 - `privacidad.html` y `aviso-legal.html`: páginas legales.
 - `styles.css`: paleta, tipografía y maquetación.
 - `script.js`: menú de móvil, cabecera al desplazarse, formulario de contacto y filtro del catálogo.
